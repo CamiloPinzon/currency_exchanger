@@ -1,0 +1,23 @@
+{
+  "name": "currency_exchanger",
+  "version": "1.0.0",
+  "description": "js currency exchanger component",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamiloPinzon/currency_exchanger.git"
+  },
+  "author": "Camilo Pinzon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamiloPinzon/currency_exchanger/issues"
+  },
+  "homepage": "https://github.com/CamiloPinzon/currency_exchanger#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
