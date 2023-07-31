@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency exchanger</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    coming soon... 
+    <main id="component">
+        <h1 id="component--title">Currency exchanger</h1>
+        <div class="container">
+            <form class="form">
+                <div class="form__container">
+                    <input id="amountFrom" class="form__input form__input--number" type="number" name="amount" placeholder="Enter amount"
+                        step="0.01">
+                    <select id="codesSelectorFrom" class="form__select form__select--currency">
+                    </select>
+                </div>
+                <div id="output" class="form__container">
+                    <p id="exchangeResult" class="form__result">Result</p>
+                    <select id="codesSelectorTo" class="form__select form__select--currency">
+                    </select>
+                </div>
+                <button id="formButton" class="form__button--convert">Convert</button>
+            </form>
+        </div>
+    </main>
 </body>
+
 </html>
